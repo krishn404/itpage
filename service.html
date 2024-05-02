@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body class="body" style="color:white; ">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="background: rgba(255, 255, 255, 0.07); border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px);-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.39);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Github</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Services</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <div class="container">
+      <div class="top">
+        <h1>Plans & Pricing</h1>
+        <div class="toggle-btn">
+          <span style="margin: 0.8em;">Annually</span>
+          <label class="switch">
+            <input type="checkbox" id="checbox" onclick="check()" ; />
+            <span class="slider round"></span>
+          </label>
+          <span style="margin: 0.8em;">Monthly</span></div>
+      </div>
+  
+      <div class="package-container">
+        <div class="packages">
+          <h1>Student</h1>
+          <h2 class="text1"> ₹0.00</h2>
+          <h2 class="text2"> ₹0.00</h2>
+          <ul class="list">
+            <li class="first">500mb Storage</li>
+            <li>Copilot Acess</li>
+            <li>Badges</li>
+            <li>Community Support</li>
+          </ul>
+          <a href="#" class="button button1">Start Now</a>
+        </div>
+        <div class="packages">
+          <h1>Pro</h1>
+          <h2 class="text1"> ₹199.00</h2>
+          <h2 class="text2"> ₹899.00</h2>
+          <ul class="list">
+            <li class="first">5GB Storage</li>
+            <li>Environment Deployment</li>
+            <li>Draft Pull Request</li>
+            <li>Premium Support</li>
+          </ul>
+          <a href="#" class="button button2">Start Now</a>
+        </div>
+        <div class="packages">
+          <h1>Enterprise</h1>
+          <h2 class="text1">₹299</h2>
+          <h2 class="text2">₹9999</h2>
+          <ul class="list">
+            <li class="first">50GB Storage</li>
+            <li>Managed Users</li>
+            <li>Audit log API</li>
+            <li>Custom Domain</li>
+          </ul>
+          <a href="#" class="button button3">Start Now</a>
+        </div>
+      </div>
+    </div>
+    
+<footer class="text-center text-lg-start bg-dark text-muted" style="background-color: rgb(88, 87, 87);">
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4" style="color: azure;">
+            <i class="fas fa-gem me-3" style="color: azure;"></i>GitHub
+          </h6>
+          <p style="color: azure;">
+            Get tips, technical guides, and best practices. Twice a month. Right in your inbox.
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"style="color: azure;">
+        
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="color: azure;">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color: azure;">
+         <h6 class="text-uppercase fw-bold mb-4" style="color: azure;">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="text-center p-4" style="background-color: rgba(165, 162, 162, 0.05); color: azure;">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://github.com/">GitHub</a>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
